@@ -1,0 +1,46 @@
+body {
+    background-image: url(./images/login_img.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: 'Red Hat Display', sans-serif;
+    box-sizing: border-box;
+    position: relative;
+}
+
+.login {
+    background-color: aliceblue;
+    border-radius: 20px;
+    width: 30%;
+    padding: 15px;
+    position: absolute;
+    top: 150px;
+    left: 10%;
+    text-align: center;
+}
+
+h3 {
+    font-weight: 300;
+    margin-top: -20px;
+}
+
+input,button {
+    margin: 10px;
+    border-radius: 8px;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: bold;
+}
+
+input {
+    padding-left: 5px;
+    height: 2.5em;
+    width: 80%;
+}
+
+button {
+    background-color: rgb(70, 115, 136);
+    padding: 10px;
+    border: 0;
+    width: 82%;
+    color: white;
+    font-size: 1em;
+}
