@@ -1,3 +1,10 @@
+.back {
+    background-image: url("../images/back.png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
 body {
     background-image: url("../images/1_bg.jpg");
     background-size: cover;
