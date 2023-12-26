@@ -1,0 +1,184 @@
+.backImg {
+    background-image: url("../images/back.png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    left: 20px;
+    top: 30px;
+    z-index: 2;
+}
+
+.back {
+    display: block;
+    background-color: white;
+    height: 50px;
+}
+
+body {
+    font-family: 'Sofia Sans', sans-serif;
+    color: white;
+    background-color: black;
+    min-width: 1000px;
+    margin-top: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    top: 20px;
+    margin: -20px -40px 30px -10px
+}
+
+li {
+    list-style: none;
+}
+
+nav {
+    background-color: white;
+    top: 20px;
+    margin: -20px -40px 30px -10px;
+    display: flex;
+    flex-direction: row;
+    height: 155px;
+    width: 100%;
+}
+
+ul, .linksNav {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    flex-direction: row;
+    width: 80%;
+}
+
+.logoNav {
+    background-image: url("../images/3_logomin.svg");
+    background-repeat: no-repeat;
+    background-size: 250px 250px;
+    height: 200px;
+    width: 200px;
+    top: -25px;
+    left: -30px;
+    background-color: black;
+    position: relative;
+    z-index: 0;
+}
+
+.nav, .shop {
+    margin: 15px 40px 15px 0;
+    font-size: 1.3em;
+}
+
+.shop {
+    background-color: black;
+    border-radius: 5px;
+    color: white;
+    padding: 15px 30px;
+    border: 2px solid white;
+}
+
+.shop:hover {
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+#header {
+    height: calc(100vh - 200px);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    margin: 0 auto 0;
+}
+
+.textHeader {
+    width: 49%;
+    font-family: 'Kalnia', sans-serif;
+    padding: 20px;
+    width: 45%;
+}
+
+#descHeader {
+    font-family: 'Sofia Sans', sans-serif;
+    font-weight: 100;
+    font-size: 1.3em;
+    width: 70%;
+}
+
+.imgHeader {
+    background-image: url("../images/3_header.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: auto;
+    width: 50%;
+    margin: -30px -50px 0 0;
+}
+
+h2{
+    margin: 50px 30px 20px 10px;
+    font-family: 'Kalnia', sans-serif;
+    text-align: center;
+}
+
+h4 {
+    font-size: 1.2em;
+}
+
+.collection {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 20px;
+}
+
+.collection>li {
+    margin: 20px;
+}
+
+.why {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.why>p {
+    width: 20%;
+}
+
+span {
+    font-family: 'Kalnia', sans-serif;
+    font-weight: 600;
+}
+
+.end {
+    width: 60%;
+    margin-left: 50px;
+}
+
+button {
+    margin: 30px;
+    position: relative;
+    left: 50%;
+    transform: translate(-60% , 0);
+    background-color: white;
+    color: black;
+    font-family: 'Sofia Sans', sans-serif;
+    padding: 20px;
+    font-size: 1.5em;
+    border: 2px solid white;
+    border-radius: 5px;
+}
+
+button:hover {
+    cursor:pointer;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+}
+
+footer {
+    text-align: center;
+}
