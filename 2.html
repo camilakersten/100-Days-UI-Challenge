@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#002 Credit Card Checkout</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lexend:wght@300;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/shadow.css">
+    <link rel="stylesheet" href="./css/2.css">
+</head>
+<body>
+    <a href="index.html"><div class="back"></div></a>
+    <div class="screen shadow-dreamy">
+        <div class="title">
+            <h1>You're almost done!</h1>
+            <p>Provide your credit card information to complete your purchase</p>
+        </div>
+        <div class="form">
+            <label for="ccn">Card number</label>
+            <br>
+            <input 
+                type="number" 
+                id="ccn" 
+                name="ccn" 
+                inputmode="numeric" 
+                pattern="[0-9\s]{13,19}" 
+                autocomplete="cc-number" 
+                maxlength="19" 
+                placeholder="xxxx xxxx xxxx xxxx" 
+                required
+            >
+            <br>
+            <label for="name">Cardholder's name</label>
+            <br>
+            <input 
+                type="text"
+                id="name"
+                name="name"
+                autocomplete="name"
+                placeholder="JOHN DOE"
+                required
+            >
+            <br>
+            <label for="expiryDate">Expiry date</label>
+            <br>
+            <input 
+                type="text"
+                id="expiryDate"
+                name="expiryDate"
+                pattern="(?:0[1-9]|1[0-2])/[0-9]{2}"
+                placeholder="MM / YY"
+                required
+            >
+            <br>
+            <label for="cvv">CVV</label>
+            <br>
+            <input 
+                type="password" 
+                name="cvv" 
+                id="cvv"
+                inputmode="numeric" 
+                maxlength="3"
+                placeholder="123"
+                required
+            >
+            <br>
+            <input type="checkbox" id="saveCard" class="sub">
+            <label for="saveCard" class="sub" id="lbSaveCard">Save information for future payments</label>
+            <br><br>
+            <button type="submit">Checkout</button>
+        </div>
+    </div>
+    
+</body>
+</html>
