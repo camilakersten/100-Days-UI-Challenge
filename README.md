@@ -25,3 +25,6 @@ Today I learned that the smallest things can humble you, but you can win if you 
 #004 
 Learned how to hide those little arrows in a numeric input.
 I made my first project using JavaScript outside of a tutorial YAY!
+
+#005 
+Learned how I can position the background image to cover all the area but in a way that still covers the space when the screen is small.
