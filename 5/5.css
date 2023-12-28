@@ -1,0 +1,38 @@
+.back {
+    background-image: url("../images/back.png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+
+body {
+    height: 100vh;
+    overflow: hidden;
+    background-image: radial-gradient(circle, #dff0c3, #dbeba1, #dde47d, #e2db55, #ecd021);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+.icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70vh;
+}
+
+img {
+    border-radius: 60px;
+    height: 35%;
+    position: relative;
+    top: -30px;
+}
+
+p {
+    color: black;
+    font-size: 1.2em;
+    font-family: 'Lato', sans-serif;
+    width: 60%;
+    margin-left: 20px;
+}
