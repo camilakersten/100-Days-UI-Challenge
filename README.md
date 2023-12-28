@@ -21,3 +21,7 @@ Discovered autocomplete for forms.
 
 #003
 Today I learned that the smallest things can humble you, but you can win if you persevere.
+
+#004 
+Learned how to hide those little arrows in a numeric input.
+I made my first project using JavaScript outside of a tutorial YAY!
