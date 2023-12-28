@@ -53,7 +53,7 @@ ul, .linksNav {
 }
 
 .logoNav {
-    background-image: url("../images/3_logomin.svg");
+    background-image: url("3_logomin.svg");
     background-repeat: no-repeat;
     background-size: 250px 250px;
     height: 200px;
@@ -108,7 +108,7 @@ ul, .linksNav {
 }
 
 .imgHeader {
-    background-image: url("../images/3_header.jpg");
+    background-image: url("3_header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     height: auto;
