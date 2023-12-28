@@ -18,3 +18,10 @@ Learned how to center an absolute element, YAY!
     left: 50%;
 Found a good online color picker: **https://redketchup.io/color-picker**
 Discovered autocomplete for forms.
+
+#003
+Today I learned that the smallest things can humble you, but you can win if you persevere.
+
+#004 
+Learned how to hide those little arrows in a numeric input.
+I made my first project using JavaScript outside of a tutorial YAY!
