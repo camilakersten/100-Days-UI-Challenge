@@ -9,15 +9,19 @@ body {
     background-image: url("1_bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
+    background-position: center center;
+    background-attachment: fixed;
+    background-color: #A2C9DD;
     font-family: 'Red Hat Display', sans-serif;
     box-sizing: border-box;
     position: relative;
-}
+ }
 
 .login {
     background-color: aliceblue;
     border-radius: 20px;
     width: 30%;
+    min-width: 300px;
     padding: 15px;
     position: absolute;
     top: 150px;
