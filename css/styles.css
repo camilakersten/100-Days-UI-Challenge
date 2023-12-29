@@ -1,8 +1,8 @@
 .content {
     border: 20px solid white;
     background-color: rgba(0,0,0,0.05);
-    height: 100vw;
     box-sizing: border-box;
+    min-width: 300px;
 }
 
 a {
@@ -13,6 +13,7 @@ header {
     background-color: rgba(255,85,112,1);
     margin: 50px 150px 30px 30px;
     padding: 60px;
+    min-width: 250px;
 }
 header>a {
     color: black;
@@ -20,7 +21,7 @@ header>a {
 
 .title {
     font-family: 'Josefin Sans', sans-serif;
-    font-size: 60px;
+    font-size: 3em;
 }
 
 .subtitle {
@@ -43,7 +44,7 @@ h2 {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content:stretch;
-    margin-right: 150px;
+    margin-right: 20%;
 }
 
 li{
