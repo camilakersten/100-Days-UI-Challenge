@@ -31,9 +31,21 @@ img {
 
 p {
     color: black;
-    font-size: 1.2em;
     font-family: 'Lato', sans-serif;
     width: 60%;
     margin-left: 20px;
-    margin-bottom: 20px;
+    position: absolute;
+    bottom: 10px;
+}
+
+@media (min-width: 500px) {
+    p {
+    font-size: 1.2em;
+    }
+}
+
+@media (max-width: 499px) {
+    p {
+    font-size: 1em;
+    }
 }

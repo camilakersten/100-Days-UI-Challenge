@@ -16,6 +16,16 @@ header>a {
     color: black;
 }
 
+.socialIcons {
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+}
+
+i {
+    margin: 5px;
+}
+
 .title {
     font-family: 'Josefin Sans', sans-serif;
 }
