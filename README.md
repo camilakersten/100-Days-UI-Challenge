@@ -28,3 +28,6 @@ I made my first project using JavaScript outside of a tutorial YAY!
 
 #005 
 Learned how I can position the background image to cover all the area but in a way that still covers the space when the screen is small.
+
+#006
+Used Bootstrap to create a page 🙌

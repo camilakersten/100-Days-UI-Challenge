@@ -1,0 +1,70 @@
+.back {
+    background-image: url("../images/back.png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url('6-bg.jpg');
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+h1 {
+    text-align: center;
+}
+
+.underline{
+    width: 130px;
+    height: 5px;
+    background-color:maroon;
+    margin: auto;
+}
+
+.card{
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    width: 90%;
+    height: 100%;
+}
+
+.col-md-4 {
+    margin-bottom: 15px;
+}
+
+.cover img {
+    width: 100%;
+    height: auto;
+}
+
+.picture {
+    display: flex;
+    justify-content: center;
+    margin-top: -100px;
+}
+
+.img2 img {
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+    border: 7px solid white;
+}
+
+h2 {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+p {
+    padding: 10px;
+}
