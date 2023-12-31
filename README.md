@@ -31,3 +31,7 @@ Learned how I can position the background image to cover all the area but in a w
 
 #006
 Used Bootstrap to create a page 🙌
+
+#007 
+Learned that Google fonts also has icons, and I will be using the back arrow from now on.
+Followed a tutorial to create a different layout for a settings page. Improved with funcional inputs.
