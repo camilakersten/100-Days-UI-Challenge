@@ -1,0 +1,125 @@
+.back {
+    background-image: url("../images/back.png");
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+}
+
+.material-symbols-outlined {
+  font-size: 3em;
+  position: absolute;
+  top: 0;
+  left: 0;
+  color: #070707;
+}
+
+
+body {
+  background: linear-gradient(to right, #8e2de2, #4a00e0);
+  overflow: hidden;
+  box-sizing: border-box;
+  font-family: 'Urbanist', sans-serif;
+}
+
+.container {
+  background: #e8e5ee;
+  width: 540px;
+  height: 420px;
+  margin: 0 auto;
+  position: relative;
+  margin-top: 10%;
+}
+
+.logo {
+  float: right;
+  margin-right: 12px;
+  margin-top: 12px;
+  color: #4a00e0;
+  font-weight: 700;
+  font-size: 1.5rem;
+  letter-spacing: 1px;
+}
+
+.leftbox {
+  float: left;
+  top: -5%;
+  left: 5%;
+  position: absolute;
+  width: 15%;
+  height: 110%;
+  background: #ab6de2;
+}
+
+nav a {
+  list-style: none;
+  padding: 35px;
+  color: #fff;
+  font-size: 1.1em;
+  display: block;
+  transition: all 0.3s ease-in-out;
+}
+
+nav a:hover {
+  color: #4a00e0;
+  transform: scale(1.2);
+  cursor: pointer;
+}
+
+nav a:first-child {
+  margin-top: 7px;
+}
+
+.active {
+  color: #4a00e0;
+}
+
+.rightbox {
+  float: right;
+  width: 60%;
+  height: 100%;
+}
+
+.profile {
+  position: absolute;
+  width: 70%;
+}
+
+h1 {
+  color: #4a00e0;
+  font-size: 1.3em;
+  margin-top: 40px;
+  margin-bottom: 35px;
+}
+
+label {
+  color: #464646;
+  width: 80%;
+  text-transform: uppercase;
+  font-size: 10px;
+  letter-spacing: 1px;
+  margin-left: 2px;
+}
+
+input {
+  border-bottom: 1px solid #ab6de2;
+  border-right: 0;
+  border-left: 0;
+  border-top: 0;
+  width: 80%;
+  padding: 7px 0;
+  background-color: #e8e5ee;
+  font-size: 1em;
+}
+
+.btn {
+  float: right;
+  text-transform: uppercase;
+  font-size: 10px;
+  border: none;
+  color: #4a00e0;
+}
+
+.btn:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
