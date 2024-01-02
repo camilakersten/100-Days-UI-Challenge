@@ -1,0 +1,83 @@
+.material-symbols-outlined {
+    position: absolute;
+    z-index: 1;
+    font-size: 2em;
+    margin: 5px;
+    color: black;
+}
+
+body {
+    height: 100vh;
+    box-sizing: border-box;
+    margin: 0;
+    overflow: hidden;
+}
+
+.main {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+.title {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+}
+
+h1 {
+    font-family: 'Lilita One', sans-serif;
+    font-size: 15em;
+	z-index: 1;
+    
+}
+
+p {
+    font-family: 'Outfit', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    max-width: 70%;
+    margin: 0 auto;
+}
+
+.animationBox {
+	width: 35%;
+	display: flex;
+	justify-content: center;
+}
+
+.animation {
+    height: 50vh;
+    width: 50vw;
+    border: 0;
+
+}
+
+.btn {
+    display: grid;
+	place-items: center;
+    margin-top: 5%;
+}
+
+button {
+	font-family: 'Lilita One', sans-serif;
+	font-size: 2em;
+	padding: 10px 30px;
+	border-radius: 5px;
+	border: none;
+	background-color: #FFD939;
+}
+
+button:hover {
+	background-color: #fff;
+	border: 1px solid #FFD939;
+	cursor: pointer;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
