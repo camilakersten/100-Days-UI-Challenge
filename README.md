@@ -35,3 +35,9 @@ Used Bootstrap to create a page 🙌
 #007 
 Learned that Google fonts also has icons, and I will be using the back arrow from now on.
 Followed a tutorial to create a different layout for a settings page. Improved with funcional inputs.
+
+#008
+Found a good site with animations to incorporate in my projects.
+
+#009
+Today I was a little ambitious. The prompt was about designing a media player, and I wanted to incoporate some from npm. Mind you I never did it, and had a feeble grasp about Node.js and npm. At the start i wanted to incoporate one that was based in React, but after some good hours I chose another one and I succeeded! It may have put me behind schedule, but I'm grateful to have chosen the path that would bring me the most knowledge.
