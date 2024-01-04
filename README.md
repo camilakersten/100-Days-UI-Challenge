@@ -44,3 +44,6 @@ Today I was a little ambitious. The prompt was about designing a media player, a
 
 #010
 Today, I learned how to clone a Git repository. I followed a tutorial that covered pointer events and the ~ selector. I particularly enjoyed the creative use of pseudo-selectors. Although my intention was to make all links functional, I only managed to implement it for Facebook. It's way past my bedtime, and I've only completed 10% of the challenge, so I need to conserve energy.
+
+#011
+Today I'm feeling a little underwhelmed because I wanted to make a better age validator, but had to stick with what I already know. I'm spending hours everyday tackling these challenges and I'm seriously considering putting a time limit from now on. Besides that, I hope you enjoy my Dating site for vampires.

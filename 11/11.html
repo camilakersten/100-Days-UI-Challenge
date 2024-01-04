@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#010 Alert</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative&family=EB+Garamond:ital@0;1&family=Raleway&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="11.css">
+</head>
+<body>
+    <a href="../index.html"><span class="material-symbols-outlined">arrow_back</span></a>
+    <div class="screen">
+        <div class="title">
+            <h1>Nocturne Love</h1>
+            <p> A dating app for vampires. <br>Join the nocturnal embrace by creating your account.</p>
+        </div>
+        <div class="form">
+            <label for="name">Enter your immortal name</label>
+            <br>
+            <input 
+                type="text" 
+                id="name" 
+                name="name" 
+                autocomplete="name"
+                maxlength="25" 
+                placeholder="Lord Darkheart" 
+                required
+            >
+            <br>
+            <label for="username">Choose your nocturnal alias</label>
+            <br>
+            <input 
+                type="text"
+                id="username"
+                name="username"
+                maxlength="20"
+                placeholder="EternalRomancer"
+                required
+            >
+            <br>
+            <label for="birthday">Age of Immortality</label>
+            <br>
+            <input type="number" inputmode="numeric" name="birthday" id="birthday" maxlength="4" placeholder="Your year of birth">
+            <br>
+            <label for="email">Provide your realm's correspondence address</label>
+            <br>
+            <input 
+                type="email"
+                id="email"
+                name="email"
+                placeholder="immortallover@example.com"
+                required
+            >
+            <br>
+            <label for="password">Password</label>
+            <br>
+            <input 
+                type="password" 
+                name="password" 
+                id="password"
+                maxlength="20"
+                placeholder="*********"
+                required
+            >
+            <br>
+            <input type="checkbox" id="terms" class="sub">
+            <label for="terms" class="sub" id="labTerms">I swear by the moon to abide by the rules of eternal love.</label>
+            <br><br>
+            <button type="submit" onclick="birthdayValidation()">Create My Immortal Haven</button>
+        </div>
+    </div>
+    <script src="11.js"></script>
+</body>
+</html>
