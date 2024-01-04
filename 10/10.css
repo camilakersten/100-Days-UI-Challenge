@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  :root {
+    --blue-color: #4158d0;
+    --pink-color: #c850c0;
+    --yellow-color: #ffcc70;
+    --fb-color: #4267b2;
+    --insta-color: #d62976;
+    --x-color: #000000;
+    --linkedin-color: #0077b5;
+  }
+
+body {
+    background-color: #0984e3;
+}
+
+.main-box {
+    position: absolute;
+    left: 50%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+}
+
+.main-box label {
+    position: relative;
+    background-color: #fff;
+    height: 50px;
+    width: 150px;
+    border-radius: 35px;
+    display: block;
+    text-align: center;
+    line-height: 50px;
+    font-size: 22px;
+    font-weight: 500;
+    text-transform: uppercase;
+    color: #0984e3;
+    cursor: pointer;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.main-box label:before {
+    content: "Cancel";
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    background: #fff;
+    border-radius: 35px;
+    opacity: 0;
+    pointer-events: none;
+}
+
+;.main-box label:hover {
+    letter-spacing: 1px;
+}
+
+#check {
+    display: none;
+}
+
+#check:checked ~label:before {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.icons {
+    position: absolute;
+    top: -120px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: #fff;
+    height: 110%;
+    width: 140%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 35px;
+    opacity: 0;
+    pointer-events: none;
+    box-shadow: 0 0 4px rgba(0, 0, 0, 0.5);
+    transition: all 0.3s ease;
+}
+
+.icons::before {
+    position: absolute;
+    content: "";
+    height: 18px;
+    width: 18px;
+    background: #fff;
+    bottom: -9px;
+    transform: rotate(45deg);
+}
+
+#check:checked ~ .icons {
+    opacity: 1;
+    pointer-events: auto;
+    top: -84px;
+}
+.icons a {
+    font-size: 22px;
+    color: #0984e3;
+    transition: all 0.3s ease;
+}
+.icons a:hover {
+    transform: translateY(-2px);
+}
+.icons a:nth-child(1):hover {
+    color: var(--fb-color)
+}
+.icons a:nth-child(2):hover {
+    color: var(--x-color)
+}
+.icons a:nth-child(3):hover {
+    color: var(--insta-color)
+}
+.icons a:nth-child(4):hover {
+    color: var(--linkedin-color)
+}

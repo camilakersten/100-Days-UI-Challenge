@@ -41,3 +41,6 @@ Found a good site with animations to incorporate in my projects.
 
 #009
 Today I was a little ambitious. The prompt was about designing a media player, and I wanted to incoporate some from npm. Mind you I never did it, and had a feeble grasp about Node.js and npm. At the start i wanted to incoporate one that was based in React, but after some good hours I chose another one and I succeeded! It may have put me behind schedule, but I'm grateful to have chosen the path that would bring me the most knowledge.
+
+#010
+Today, I learned how to clone a Git repository. I followed a tutorial that covered pointer events and the ~ selector. I particularly enjoyed the creative use of pseudo-selectors. Although my intention was to make all links functional, I only managed to implement it for Facebook. It's way past my bedtime, and I've only completed 10% of the challenge, so I need to conserve energy.
