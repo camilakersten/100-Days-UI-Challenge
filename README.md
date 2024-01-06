@@ -50,3 +50,9 @@ Today I'm feeling a little underwhelmed because I wanted to make a better age va
 
 #012
 Today I had no inspiration for design, so I'm coding a design submitted by [Alexandra Paun in Dribble](https://dribbble.com/shots/4335565/attachments/4335565-E-commerce-item-Daily-012?mode=media).
+
+#013
+Today I tested the GitHub Copilot and I was impressed on how it knew the correct border radius to the baloon messages. In other moments it got in the way of work, but overall I have found it interesting.
+
+#014
+Today I followed a [simple tutorial](https://www.youtube.com/watch?v=NWzjsMC810w) to achieve a countdown timer.
