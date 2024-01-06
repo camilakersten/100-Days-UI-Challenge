@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#012 Ecommerce</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Afacad&family=Jost:wght@400&display=swap">
+    <link rel="stylesheet" href="12.css">
+</head>
+<body>
+    <a href="../index.html"><span class="material-symbols-outlined">arrow_back</span></a>
+    <div class="container">
+        <div class="photos">
+            <div class="slideshow-container">
+                <div class="mySlides fade">
+                  <img src="12_black.jpeg" style="width:80%" alt="Eames chair in black">
+                </div>
+                <div class="mySlides fade">
+                    <img src="12_blue.jpeg" style="width:80%" alt="Eames chair in blue">
+                </div>
+                <div class="mySlides fade">
+                    <img src="12_green.jpeg" style="width:80%" alt="Eames chair in green">
+                </div>
+                <div class="mySlides fade">
+                    <img src="12_orange.jpeg" style="width:80%" alt="Eames chair in orange">
+                </div>
+                <a class="prev" onclick="plusSlides(-1)">❮</a>
+                <a class="next" onclick="plusSlides(1)">❯</a>
+        </div>
+    </div>
+        <div class="info">
+            <h1>Eames® Molded Plastic Wire-Base Armchair (DAR)</h1>
+            <p>Designed by Charles and Ray Eames for Herman MillerⓇ</p>
+            <br>
+            <button onclick="changeColorBlack()" class="btn black"></button>
+            <button onclick="changeColorBlue()" class="btn blue"></button>
+            <button onclick="changeColorGreen()" class="btn green"></button>
+            <button onclick="changeColorOrange()" class="btn orange"></button>
+            <p><span class="char">Select shell color: </span><span id="color">Black</span></p>
+            <div class="colors"></div>
+            <p><span class="char">Availability: </span>In stock</p>
+            <p><span class="char">Quantity: </span>1</p>
+            <p><span class="char">Price: </span>455.5$</p>
+        <button id="addCart">ADD TO CART</button>
+        </div>
+    </div>
+    <script src="12.js"></script>
+</body>
+</html>

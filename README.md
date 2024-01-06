@@ -47,3 +47,6 @@ Today, I learned how to clone a Git repository. I followed a tutorial that cover
 
 #011
 Today I'm feeling a little underwhelmed because I wanted to make a better age validator, but had to stick with what I already know. I'm spending hours everyday tackling these challenges and I'm seriously considering putting a time limit from now on. Besides that, I hope you enjoy my Dating site for vampires.
+
+#012
+Today I had no inspiration for design, so I'm coding a design submitted by [Alexandra Paun in Dribble](https://dribbble.com/shots/4335565/attachments/4335565-E-commerce-item-Daily-012?mode=media).
