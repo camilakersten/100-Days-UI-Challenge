@@ -56,3 +56,6 @@ Today I tested the GitHub Copilot and I was impressed on how it knew the correct
 
 #014
 Today I followed a [simple tutorial](https://www.youtube.com/watch?v=NWzjsMC810w) to achieve a countdown timer.
+
+#015
+Today I learned how to create a dark mode toggle.
