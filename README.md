@@ -59,3 +59,6 @@ Today I followed a [simple tutorial](https://www.youtube.com/watch?v=NWzjsMC810w
 
 #015
 Today I learned how to create a dark mode toggle.
+
+#016
+Today I learned how to use the dialog tag.
