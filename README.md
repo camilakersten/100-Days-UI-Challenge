@@ -62,3 +62,6 @@ Today I learned how to create a dark mode toggle.
 
 #016
 Today I learned how to use the dialog tag.
+
+#017
+Today I solved a challenge from Frontend Mentor, and it was my first time following a design from Figma. It was really interesting.
