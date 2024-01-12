@@ -65,3 +65,6 @@ Today I learned how to use the dialog tag.
 
 #017
 Today I solved a challenge from Frontend Mentor, and it was my first time following a design from Figma. It was really interesting.
+
+#019
+Today I challenge myself to use AI to solve the challenge. Since it was my first time using I had a difficult time to make it create something appealing. Going forward I think I can use AI to generate gradients or solve me some problems, but not necessarily use it to make it from scratch.
