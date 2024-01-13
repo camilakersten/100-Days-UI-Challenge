@@ -68,3 +68,6 @@ Today I solved a challenge from Frontend Mentor, and it was my first time follow
 
 #019
 Today I challenge myself to use AI to solve the challenge. Since it was my first time using I had a difficult time to make it create something appealing. Going forward I think I can use AI to generate gradients or solve me some problems, but not necessarily use it to make it from scratch.
+
+#020
+Today I used CSS Grid for the first time, and I will definitely will be using it more going forward.
