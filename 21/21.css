@@ -7,3 +7,173 @@
     top: 0;
     left: 0;
 }
+.atribution {
+    position: absolute;
+    top: 3px;
+    left: 50px;
+    font-size: 11px;
+    color: #1f2e55;
+    text-decoration: none;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' -25,
+  'opsz' 48
+}
+body {
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    margin: 0;
+    height: 80dvh;
+
+}
+#logo {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 70px;
+    height: 70px;
+    margin-top: -1px;
+}
+.date {
+    position: absolute;
+    top: 60px;
+    right: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items: bottom;
+    color: #fff;
+    z-index: 1;
+    font-size: 0.8em;
+    font-weight: 500;
+}
+
+.date p {
+    margin-left: 50px;
+}
+main {
+    background-image: url(21-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 40dvh;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: flex-end;
+    margin: 40px 0;
+    padding: 0 20px 40px 20px;
+}
+.stats {
+    display: flex;
+    flex-direction: column;
+}
+.stats p {
+    text-align: center;
+}
+
+.upper {
+    display: flex;
+    flex-direction: row;
+    align-items: top;
+    justify-content: left;
+    margin-right: 20px;
+}
+.upper span {
+    color: #E81D6F;
+    margin-top: 8px;
+}
+.upper h1 {
+    margin: -8px 10px 0 20px;
+    font-size: 3em;
+}
+.upper p {
+    margin: 0;
+    font-size: 1.2em;
+}
+.toggles {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 20px;
+}
+.toggle {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+.toggle span {
+    color: #cccccc;
+}
+.toggle p {
+    font-weight: 500;
+    font-size: 0.9em;
+}
+
+/*Styles for toggle switch
+https://www.cssscript.com/realistic-ios-switch-pure-css/*/
+
+.form-switch {
+    display: inline-block;
+    cursor: pointer;
+    -webkit-tap-highlight-color: transparent;
+  }
+  
+  .form-switch i {
+    position: relative;
+    display: inline-block;
+   margin-right: .5rem;
+    width: 46px;
+    height: 26px;
+    background-color: #e6e6e6;
+    border-radius: 23px;
+    vertical-align: text-bottom;
+    transition: all 0.3s linear;
+  }
+  
+  .form-switch i::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 42px;
+    height: 22px;
+    background-color: #fff;
+    border-radius: 11px;
+    transform: translate3d(2px, 2px, 0) scale3d(1, 1, 1);
+    transition: all 0.25s linear;
+  }
+  
+  .form-switch i::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 22px;
+    height: 22px;
+    background-color: #fff;
+    border-radius: 11px;
+    box-shadow: 0 2px 2px rgba(0, 0, 0, 0.24);
+    transform: translate3d(2px, 2px, 0);
+    transition: all 0.2s ease-in-out;
+  }
+  
+  .form-switch:active i::after {
+    width: 28px;
+    transform: translate3d(2px, 2px, 0);
+  }
+  
+  .form-switch:active input:checked + i::after { transform: translate3d(16px, 2px, 0); }
+  
+  .form-switch input { display: none; }
+  
+  .form-switch input:checked + i { background-color: #4BD763; }
+  
+  .form-switch input:checked + i::before { transform: translate3d(18px, 2px, 0) scale3d(0, 0, 0); }
+  
+  .form-switch input:checked + i::after { transform: translate3d(22px, 2px, 0); }
