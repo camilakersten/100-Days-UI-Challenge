@@ -95,6 +95,22 @@ main {
     margin: 0;
     font-size: 1.2em;
 }
+
+@media (max-width: 500px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        justify-content: end;
+    }
+    .upper h1 {
+        font-size: 2.5em;
+    }
+    .upper p {
+        font-size: 1em;
+    }
+    
+}
+
 .toggles {
     display: flex;
     flex-direction: row;
