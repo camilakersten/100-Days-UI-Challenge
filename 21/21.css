@@ -109,7 +109,9 @@ main {
     .upper p {
         font-size: 1em;
     }
-    
+    .toggle:nth-child(4) {
+        margin: 0 -10px;
+    }   
 }
 
 .toggles {
