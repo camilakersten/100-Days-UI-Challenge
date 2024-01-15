@@ -71,3 +71,6 @@ Today I challenge myself to use AI to solve the challenge. Since it was my first
 
 #020
 Today I used CSS Grid for the first time, and I will definitely will be using it more going forward.
+
+#022 
+Today I created a custom google search box using only the documentation available.
