@@ -14,4 +14,66 @@
     font-size: 11px;
     color: #1f2e55;
     text-decoration: none;
+    font-family: 'System-UI', sans-serif;
 }
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #a3c2e6;
+    max-width: 400px;
+    margin: 0 auto;
+}
+    .carousel {
+    margin-top: 50px;
+}
+    .carousel-cell {
+    width: 66%;
+    height: 70dvh;
+    margin-right: 10px;
+    border-radius: 15px;
+    background-size: cover;
+    background-position: center center;
+    background-size: cover;
+}
+    .carousel-cell:before {
+    display: block;
+    content: '';
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+  background-color: initial;
+  background-image: linear-gradient(-180deg, #00D775, #00BD68);
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.1) 0 2px 4px;
+  color: #FFFFFF;
+  cursor: pointer;
+  display: inline-block;
+  font-family: system-ui, sans-serif;
+  height: 44px;
+  line-height: 44px;
+  outline: 0;
+  overflow: hidden;
+  padding: 0 5px;
+  pointer-events: auto;
+  position: relative;
+  text-align: center;
+  touch-action: manipulation;
+  user-select: none;
+  -webkit-user-select: none;
+  vertical-align: top;
+  white-space: nowrap;
+  width: 50%;
+  z-index: 9;
+  border: 0;
+  margin: 50px auto;
+}
+
+button:hover {
+    background: #00bd68;
+  }
