@@ -1,6 +1,6 @@
 .back{
     position: absolute;
-    color:#1f2e55;
+    color:#fff;
     z-index: 1;
     font-size: 2em;
     margin: 5px;
@@ -14,4 +14,151 @@
     font-size: 11px;
     color: #1f2e55;
     text-decoration: none;
+}
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 1,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #121212;
+    color: #fff;
+    min-width: 100dvw;
+    background-image: url(25-hero.jpg);
+    background-position: top right;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-left: -20px;
+}
+nav {
+    margin-top: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+nav img {
+    width: 150px;
+    margin-right: 10px;
+    cursor: pointer;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    margin-left: 50px;
+    cursor: pointer;
+}
+.icons span:active {
+    color: rgba(255, 255, 255, 0.75);
+
+}
+.icons span {
+    margin-right: 20px;
+    font-size: 1.5em;
+}
+main {
+    display: block;
+    margin-top: 30px;
+}
+.rating {
+    color: #E50914;
+}
+.buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+}
+button {
+    font-family: 'Lato', sans-serif;
+    height: 2em;
+    line-height: 2em;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    text-align: center;
+}
+button span {
+    margin-right: 10px;
+    padding-top: 5px;
+}
+.watch {
+    background-color: #fff;
+    margin: 10px 0;
+    min-width: 150px;
+}
+.watch:hover {
+    background-color: rgba(255, 255, 255, 0.75);
+}
+.info {
+    background-color: rgba(109, 109, 110, 0.7);
+    color: #fff;
+    min-width: 250px;
+    margin-left: 10px;
+}
+.info:hover {
+    background-color: rgba(109, 109, 110, 0.4);
+}
+.text {
+    width: 40%;
+    margin-left: 50px;
+}
+.text h1 {
+    font-size: 3.5em;
+    margin: 0 0 20px 0;
+
+}
+.text p {
+    font-size: 1.2em;
+    margin-bottom: 10px;
+}
+
+.other-titles {
+    width: 95dvw;
+    margin: 0 auto 50px;
+}
+.other-titles h2 {
+    font-size: 1.2em;
+    margin-left: 20px;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    width: 100%;
+    gap: 10px;
+}
+
+.cards img {
+    width: 13dvw;
+    height: auto;
+    object-fit: cover;
+}
+.cards img:hover {
+    transform: scale(1.2);
+    transform: translate(0, -20px);
+    transition: 800ms ease-in-out;
+    margin: 0 5px;
+    cursor: pointer;   
+}
+.cards img:active {
+    transform: scale(1.1);
+    transition: 150ms ease-in-out;
+    margin: 0 10px;
+    cursor: pointer;   
+    opacity: 0.5;
 }
