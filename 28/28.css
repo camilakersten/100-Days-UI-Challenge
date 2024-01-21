@@ -1,0 +1,120 @@
+.back{
+    position: absolute;
+    color:#fff;
+    z-index: 1;
+    font-size: 2em;
+    margin: 5px;
+    top: 0;
+    left: 0;
+}
+.atribution {
+    position: absolute;
+    top: 3px;
+    left: 50px;
+    font-size: 11px;
+    color: #fff;
+    text-decoration: none;
+}
+.atribution a{
+    color: #fff;
+
+}
+* {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nunito', sans-serif;
+    background-color: #565c7c;
+    box-sizing: border-box;
+    position: relative;
+    height: 100vh;
+    overflow-y: hidden;
+    letter-spacing: 1px;
+}
+
+.screen {
+    position: absolute;
+    transform: translate(-50%, -50px);
+    width: 500px;
+    top: 10%;
+    left: 50%;
+    height: 90%;
+    /*min-height: 300px;*/
+    background-color: #3e6aff;
+    padding: 50px 100px;
+}
+
+h1 {
+    color: #fff;
+    font-weight: 300;
+    margin-bottom: 40px;
+    text-align: center;
+}
+.radio {
+    display: flex;
+    flex-direction: row;
+    width: 90%;
+    margin: 0 0 40px -30px;
+    justify-content: flex-start;
+    align-items: left;
+    font-weight: 700;
+}
+label {
+    color: #fff;
+    font-size: 1em;
+}
+input[type="radio"] {
+    font-size: 0.5em;
+    width: 30px;
+    color: #2c58ec;
+    text-align: left;
+}
+input, textarea {
+    margin: 3px auto 15px;
+    font-family: 'Nunito', sans-serif;
+    width: 90%;
+    border: none;
+    border-bottom: 2px solid #3863f0;
+    padding-left: 10px;
+    background-color: transparent;
+}
+input {
+    height: 2em;
+}
+
+#lbSaveCard, #saveCard {
+    height: 1em;
+    margin: 1px;
+    text-align: left;
+    font-size: 0.8em;
+ }
+
+ #saveCard {
+    width: 10%;
+ }
+
+ #lbSaveCard {
+    width: 90%;
+ }
+
+button {
+    background-color: #3b66f3;
+    width: 100%;
+    height: 6em;
+    color: white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    font-family: 'Nunito', sans-serif;
+    border: none;
+}
+
+button:hover {
+    background-color: #2d4db8;
+}
+
+button:active {
+    background-color: #708ef3;
+    color: #000;
+}
