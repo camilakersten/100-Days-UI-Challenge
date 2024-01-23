@@ -74,3 +74,17 @@ Today I used CSS Grid for the first time, and I will definitely will be using it
 
 #022 
 Today I created a custom google search box using only the documentation available.
+
+#023 
+Today I made my first slider!
+
+#024
+Today, I struggled to make things align, only to discover after a few days how to create this layout in a much easier way using a grid. Better late to the party than never to arrive!
+
+#025
+This is the project that I'm the most proud, and it was actually pretty easy to achieve without the help of a tutorial. It's good to feel the progress.
+
+#029
+I have spend some couple hours trying to make the Embedded Google Maps work, but I kept struggling with the billing process. I then switched to mapbox.
+
+Dear friends and fellow design enthusiasts, I wanted to share a brief update on my 100 Days UI challenge journey. After completing 30 days of intense learning and practice, I've gained valuable insights into UI design principles and honed my skills. However, I've decided to hit pause on the challenge for now. My eagerness to delve into new realms, specifically exploring frameworks like React and mastering tools like Sass, has led me to temporarily shift my focus. I believe these skills will not only complement my UI design expertise but also open up new possibilities. Rest assured, this break is not an end but a strategic pause. I'll be back to continue the UI challenge, armed with these new capabilities, ready to create even more compelling and dynamic user interfaces. Thanks for your continued support on this exciting journey!
