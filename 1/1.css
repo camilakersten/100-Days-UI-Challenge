@@ -9,12 +9,19 @@ body {
     background-image: url("1_bg.jpg");
     background-size: cover;
     background-repeat: no-repeat;
-    background-position: center center;
+    background-position: right center;
     background-attachment: fixed;
     background-color: #A2C9DD;
     font-family: 'Red Hat Display', sans-serif;
     box-sizing: border-box;
     position: relative;
+ }
+
+ @media screen and (max-width: 900px) {
+    body{
+        background-size: 120%;
+        background-position: right bottom;
+    }
  }
 
 .login {
